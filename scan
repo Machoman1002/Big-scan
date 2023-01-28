@@ -1,7 +1,7 @@
 import pyfiglet
 #import termcolor 
 import socket
-#import subprocess
+import subprocess
 import sys
 from datetime import datetime
 import threading 
@@ -13,7 +13,7 @@ target = input(str("Target IP:"))
 
 
 # Clear the screen
-#subprocess.call('cls', shell=True)
+subprocess.call('cls', shell=True)
 
 # banner
 print("-" * 60)
